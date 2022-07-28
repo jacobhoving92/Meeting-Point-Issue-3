@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>M.e.e.t.i.n.g.p.o.i.n.t. Issue 3</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <h1>M.e.e.t.i.n.g.p.o.i.n.t. Issue 3</h1>
+
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <label for="files" id="buttonImgOne">DONATE A FILE TO <br>DOWNLOAD THE PUBLICATION</label>
+        <input id="files" type="file" name="file" style="visibility:hidden;" name="avatar" onchange="javascript:updateList()">
+        <button type="submit" class="buttonImgTwo" onclick="disableSubmit()">DOWNLOAD <br>THE PUBLICATION</button>
+    </form>
+
+    <div id="textContainer">
+        <p>This is an exchange room. Beyond this page, on a server, lies the content of the third
+            M.e.e.t.i.n.g.p.o.i.n.t. publication: &ldquo;In the institute&rdquo;, a song and video composition by
+            Hrefna Sigur&eth;ard&oacute;ttir.</p>
+        <p>Although we do not ask for any type of monetary exchange, instead, we&rsquo;d like you to
+            submit [?] a single file of your own choice in exchange for the mp4 publication.
+            So! At the moment you are nowhere. You are situated in plasma, in goo &ndash; in limbo. Not
+            much to do here but decide which file you&rsquo;d like to submit. What size, what type, which
+            genre...or if you&rsquo;d like to submit one at all.</p>
+        <p>You, the visitor, may be coming to this room from different operating systems and not
+            all of you are looking through the same type of browser or screen. This may mean that
+            the file extensions hosted on your computer are different, and the type of file may differ
+            as well. Maybe you are interested or invested in vastly different subjects which probably
+            also controls what kind of files you have saved on your machine.</p>
+        <p>And this might result in a quite eclectic collection of digital objects. But that is somewhat
+            what we are trying to create &ndash; a collection. Just some collection that we will later on
+            re-order, re-frame and re-publish, with your consent, of course.</p>
+        <br><p>AND if this page is plasma, the buttons above then act as the membrane that sucks in or
+            spits out the documents exchanged.</p>
+        <p>As you upload, add your name and a title if you&rsquo;d like.
+        </p>
+        <p>We wonder how you will choose your file...
+        </p>
+        <div class="dottedLine"></div>
+        <p id="footnote">In the institute, song and video composition, intitally performed live in 2018
+            by Hrefna Sigur&eth;ard&oacute;ttir at Partners, New Haven.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

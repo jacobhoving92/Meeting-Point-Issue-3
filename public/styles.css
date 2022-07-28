@@ -1,0 +1,124 @@
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 1.5em;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  display: flex;
+  line-height: 1.3;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(229, 229, 229);
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+  position: fixed;
+}
+
+#buttonContainer {
+    margin-top: 1.5em;
+  display: flex;
+  justify-content: center;
+  max-width: 28em;
+}
+
+#buttonImgOne {
+  width: 23em;
+  height: 9em;
+  display: block;
+  text-align: center;
+  margin-top: 8em;
+  padding-top: 5em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  background-image: url(button1.svg);
+  background-repeat: no-repeat;
+  background-size: 28em, 13.25em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#buttonImgOne:hover {
+  color: blue;
+  background-image: url(button1blue.svg);
+  cursor: pointer;
+}
+
+.buttonImgTwo {
+  width: 28em;
+  height: 12.33em;
+  margin-bottom: 4em;
+  display: block;
+  text-align: center;
+  color: grey;
+  background-image: url(button2grey.svg);
+  background-repeat: no-repeat;
+  background-size: 28em, 12.33em;
+  cursor:initial;
+}
+
+#activeImgTwo {
+  color: black;
+  background-image: url(button2.svg);
+}
+
+#activeImgTwo:hover {
+  background-image: url(button2blue.svg);
+  color: blue;
+  cursor: pointer;
+}
+
+
+#buttonImg {
+  width: 28em;
+}
+
+#buttonImg:hover {
+    fill: blue;
+}
+.buttonText {
+  margin-top: 5em;
+  position: absolute;
+  text-align: center;
+}
+
+p {
+  max-width: 39.5em;
+}
+
+#textContainer {
+}
+
+.dottedLine {
+  margin-top: 10em;
+  border-top: 1px black dashed;
+  max-width: 55em;
+  height: 2px;
+}
+
+#footnote {
+  font-family: Courier, monospace;
+  font-size: 0.78em;
+  max-width: 46em;
+  padding-top: 1.6em;
+  line-height: 1.5em;
+}
+
